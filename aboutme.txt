@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://cdn.pixabay.com/photo/2011/12/14/12/11/galaxy-11023_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      backdrop-filter: brightness(0.9);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .about {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <img src="me.jpg" alt="My Photo">
+  <div class="about">
+    <p>
+      I am from Pudtol, Apayao. I'm currently studying at the University of the Cordilleras. <br>
+      My hobbies are reading, playing basketball, and sometimes playing MOBA games.
+    </p>
+  </div>
+</body>
+</html>
