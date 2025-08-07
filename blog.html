@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Basketball Awards Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      background-color: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      height: 200px;
+      width: auto;
+      display: block;
+      margin: 0 auto 10px;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    .description {
+      font-size: 0.95rem;
+      color: #333;
+    }
+
+    .home-button {
+      display: block;
+      width: fit-content;
+      margin: 40px auto;
+      padding: 12px 24px;
+      background-color: #000;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .home-button:hover {
+      background-color: #444;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-item img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🏀 My Basketball Journey</h1>
+    <p>Award-winning moments captured on the court</p>
+  </header>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="benne.jpg" alt="Basketball Award 1">
+      <div class="description">Won MVP in local high school championship.</div>
+    </div>
+    <div class="gallery-item">
+      <img src="benne.1.jpg" alt="Basketball Award 2">
+      <div class="description">Awarded Best Defensive Player of the season.</div>
+    </div>
+    <div class="gallery-item">
+      <img src="benne.2.jpg" alt="Basketball Award 3">
+      <div class="description">Team captain during a national tournament.</div>
+    </div>
+    <div class="gallery-item">
+      <img src="benne.3.jpg" alt="Basketball Award 4">
+      <div class="description">Received All-Star recognition in regional league.</div>
+    </div>
+  </div>
+
+  <a href="index.html" class="home-button">← Back to Home</a>
+
+</body>
+</html>
