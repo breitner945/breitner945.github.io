@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .social-button {
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .facebook {
+      background-color: #1877f2;
+    }
+
+    .facebook:hover {
+      background-color: #0e60d1;
+    }
+
+    .instagram {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+
+    .instagram:hover {
+      opacity: 0.9;
+    }
+
+    .social-button img {
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Me</h1>
+
+  <div class="button-container">
+    <a href="https://www.facebook.com/share/19jw7bD4SN/?mibextid=wwXIfr" class="social-button facebook" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" />
+      Facebook
+    </a>
+
+    <a href="https://www.instagram.com/brtnr_bydn?igsh=MW9pMnQ3bTNqdHJpNg%3D%3D&utm_source=qr" class="social-button instagram" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" alt="Instagram" />
+      Instagram
+    </a>
+  </div>
+
+</body>
+</html>
